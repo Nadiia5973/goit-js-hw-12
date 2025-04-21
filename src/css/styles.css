@@ -9,6 +9,18 @@
 @import url('./base.css');
 
 
+.loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: green;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.hidden {
+  display: none;
+}
+
 .gallery {
   display: flex;
   flex-wrap: wrap;
@@ -91,4 +103,28 @@ ol {
   border-radius: 8px;
   cursor: pointer;
   transition: background-color .3s ease;
+}
+
+.load-more {
+  display: inline-block;
+  margin: 30px auto 0;
+  padding: 10px 20px;
+  background-color: #4f7df9;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.is-hidden {
+  display: none;
 }
